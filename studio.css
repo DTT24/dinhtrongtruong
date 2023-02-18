@@ -1,0 +1,192 @@
+.container{
+    width: 100%;
+    height: 1800px;
+    margin: 0 auto;
+    font-family: 'Quicksand', sans-serif!important;
+}
+header{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+nav{
+    width: 100%;
+    height: 50px;
+}
+article{
+    width: 70%;
+    height: 1200px;
+    background-color: white;
+    box-shadow: 0 0 5px grey;
+    margin: 5px;
+    float: left;
+}
+aside{
+    width: 28%;
+    height: 1200px;
+    background-color: white;
+    float: right;
+}
+footer{
+    border-top: 5px double gray;
+    width: 100%;
+    height: 150px;
+    background-color: lightcyan;
+    clear: both;
+    text-align: center;
+    line-height: 150px;
+    font-variant: small-caps;
+    font-size: 26px;
+}
+ul.vmenu{
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+ul.vmenu>li>a{
+    display: block;
+    border-bottom: 1px dotted black;
+    color: black;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+ul.vmenu>li{
+    border-bottom: 1px dotted black;
+}
+ul.vmenu>li>a:hover{
+    display: block;
+    text-decoration: underline;
+    border-bottom: 1px dotted white;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+header .company-info{
+    width: 400px;
+    height: 70px;
+    position: absolute;
+    bottom: 30px;
+    left: 15px;
+}
+header .company-info>h1{
+    margin: 0px;
+    padding: 0px;
+    font-variant: small-caps;
+    color: white;
+    font-size: 50px;
+    text-shadow: 0 0 5px gray;
+    text-align: center;
+}
+.menu{
+    background-color: gray;
+    text-align: center;
+    font-variant: small-caps;
+}
+.menu>ul{
+    background-color: gray;
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.menu>ul>li{
+    display: inline-block;
+    line-height: 50px;
+    width: 10%;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.menu a:hover{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+}
+.menu li{
+    position: relative;
+}
+ul.sub-menu{
+    position: absolute;
+    width: 220px;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+    text-align: left;
+    display: none;
+    z-index: 1;
+}
+ul.sub-menu>li>a{
+    border-bottom: 1px dotted black;
+    color: black;
+    background-color: grey;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+ul.sub-menu>li{
+    border-bottom: 1px dotted black;
+}
+ul.sub-menu>li>a:hover{
+    text-decoration: underline;
+    border-bottom: 1px dotted white;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+.menu li:hover .sub-menu{
+    display: block;
+}
+.col-25{
+    width: 30%;
+    float: left;
+    height: 270px;
+}
+.prod{
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px gray;
+    margin: 25px;
+    text-align: center;
+    position: relative;
+}
+.prod>.name{
+    top: 5px;
+    font-variant: small-caps;
+    color: grey;
+}
+.prod>.image{
+    max-width: 98%;
+    height: 200px;
+    margin-bottom: 10px;
+ }
+ 
+ .prod>.price{
+    position: absolute;
+    left: 110px;
+    bottom: 5px;
+    font-family: Impact;
+    font-size: 10px;
+    color: grey;
+}
+.prod>.icon{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    width: 25px;
+}
+.lienhe{
+    margin-left: 10px;
+    text-align: justify;
+    font-size: 20px;
+    font-variant: normal;
+}
